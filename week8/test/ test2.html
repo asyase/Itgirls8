@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+      shrink-to-fit="no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <title>Bootstrap Layout</title>
+    <style>
+      body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .custom-box {
+        border: 1px solid #ddd; /* Добавьте границу для ясности */
+        padding: 40px;
+        margin-bottom: 1rem;
+        text-align: center;
+        background-color: pink;
+      }
+
+      .gallery {
+        padding: 15rem;
+      }
+
+      .buy-box {
+        text-align: start;
+        padding: 10.5rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="custom-box gallery">
+            <h2>Gallery</h2>
+            <!--  контент для галереи -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-12">
+              <div class="custom-box">
+                <h2>Title</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="custom-box buy-box">
+                <h2>Buy Box</h2>
+                <!--  контент для Buy Box -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="custom-box">
+            <h2>Description</h2>
+            <!--  контент для Description -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="custom-box">
+            <h2>Related</h2>
+            <!--  контент для Related -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
