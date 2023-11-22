@@ -1,0 +1,63 @@
+/* Общие стили */
+.text-purple {
+    color: purple;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Стили для шапки */
+.header {
+    background-color: white;
+}
+
+.header__logo {
+    /* Ваши стили для логотипа */
+}
+
+.header__cart {
+    /* Ваши стили для кнопки корзины */
+}
+
+/* Стили для баннера */
+.banner {
+    /* Ваши стили для баннера */
+}
+
+
+.banner__title {
+    /* Ваши стили для заголовка баннера */
+}
+
+.banner__description {
+    /* Ваши стили для описания баннера */
+}
+
+.banner__button {
+    background-color: #5222D0;
+    color: white;
+    max-width: 100%;
+    height: auto;
+    font-weight: 300;
+}
+
+.banner__image {
+    /* Ваши стили для изображения баннера */
+}
+
+/* Стили для футера */
+.footer {
+background-color: white;
+font-weight: 400;
+}
+
+.footer__title {
+background-color: white;
+}
+
+.footer__column-title {
+    margin-bottom: 8px; /* Регулирует промежуток между названиями */
+    font-size: 20px; /* Размер шрифта названий */
+    font-weight: 300; 
+  }
